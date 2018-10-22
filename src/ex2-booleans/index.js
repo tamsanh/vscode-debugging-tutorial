@@ -16,6 +16,13 @@ class Person {
 }
 
 function printPerson(person) {
+
+  // Example
+  let isNamedBetsy = person.name === "Betsy"
+  if (isNamedBetsy) {
+    console.log(`${person.name} is a great programmer!`)
+  }
+
   // Can ride an amusement park ride?
   if(person.height > 50 && !person.weight < 200 && person.age > 14) {
     console.log(`${person.name} can ride the amusement park ride`)
