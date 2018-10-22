@@ -19,7 +19,7 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Launch Ex2 Solution",
+      "name": "Launch Ex2 - Solution",
       "program": "${workspaceFolder}/src/ex2-booleans/solution.js"
     },
     {
@@ -28,6 +28,26 @@
       "name": "Launch Ex3",
       "program": "${workspaceFolder}/src/ex3-express/index.js",
       "console": "integratedTerminal"
-    }
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Ex4",
+      "program": "${workspaceFolder}/src/ex4-double-for-loop/index.js",
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Ex4 - With 'skipFiles'",
+      "program": "${workspaceFolder}/src/ex4-double-for-loop/index.js",
+      "skipFiles": [
+      ]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Ex4 - Solution",
+      "program": "${workspaceFolder}/src/ex4-double-for-loop/solution.js",
+    },
   ]
 }
