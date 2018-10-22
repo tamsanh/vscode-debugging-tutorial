@@ -16,11 +16,9 @@ This project contains several files that we will be diving into:
 * **ex4-for-loop**
   * This is a more real world look, but still simple Javascript function will look like, and how we can use debugging to notice slowness.
   * We will be modifying this code to make it faster, and the affects will be readily apparently during our debugging.
-* **ex5-binary-search**
-  * Another real world scenario using a recursive binary search. This time, we show the power of understanding exactly what data is where.
-* **ex6-memoization**
+* **ex5-memoization**
   * Another real-world example showing how we can observe a memoized structure being built in real time.
-* **ex7-testing**
+* **ex6-testing**
   * The final real world example showing how to write and run tests for these modules.
 
 The fourth is a collection of test cases, 

@@ -41,7 +41,3 @@ Make the running time of the code into `O(n)` using a hashmap or a set.
 ## Output
 
 ![Solution](./images/soln.png)
-
-## Bonus
-
-Rewrite this function to use
