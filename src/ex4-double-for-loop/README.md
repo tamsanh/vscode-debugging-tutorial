@@ -26,9 +26,9 @@ This is particularly useful when there are files we do not need to look at.
 
 ## Assignment
 
-Place a breakpoint on line 9, and run `Launch Ex4`, and `Step Into` the line of code.
+Place a breakpoint on line 44, and run `Launch Ex4`, and `Step Into` the line of code.
 
-**DO NOT PLACE ANY MORE BREAKPOINTS OTHER THAN THE ONE ON LINE 9**
+**DO NOT PLACE ANY MORE BREAKPOINTS OTHER THAN THE ONE ON LINE 44**
 
 You'll notice that when we `Step Into`, we also step into the `getCorpus` function from the data. We don't really want that, so follow the lesson and add the `data.js` file to the `skipFiles` blacklist. This will make our debugging operation a lot easier.
 
