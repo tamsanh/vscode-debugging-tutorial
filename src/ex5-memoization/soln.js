@@ -1,15 +1,19 @@
 const { generateMatrix, printMatrixAndPaths } = require('./libs')
 
 function getLeft(m, x, y) {
+  return (m[y] || [])[x-1]
 }
 
 function getUp(m, x, y) {
+  return (m[y-1] || [])[x]
 }
 
 function canMoveRight(cell) {
+  return cell !== undefined && (cell.direction & 1) > 0
 }
 
 function canMoveDown(cell) {
+  return cell !== undefined && (cell.direction & 2) > 0
 }
 
 function sumSurroundingCells(mem, matrix, x, y) {
