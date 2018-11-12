@@ -29,7 +29,7 @@ let blackListNames = [
 
 function isNameOnBlacklist(name) {
   // !Do not use the `indexOf`
-  for(blackName of blackListNames) {
+  for(const blackName of blackListNames) {
     loopRuns++
     if(name == blackName) {
       return true
