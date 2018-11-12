@@ -18,8 +18,7 @@ This project contains several files that we will be diving into:
   * We will be modifying this code to make it faster, and the affects will be readily apparently during our debugging.
 * **ex5-memoization**
   * Another real-world example showing how we can observe a memoized structure being built in real time.
-* **ex6-testing**
-  * The final real world example showing how to write and run tests for these modules.
+  * This also has a small testing module that we can experiment with
 
 The fourth is a collection of test cases, 
 
