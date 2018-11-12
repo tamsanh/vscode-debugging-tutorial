@@ -29,6 +29,8 @@ Inside the Variables tab, you can modify data by either Double Clicking or Right
 
 ## Assignment
 
+You have a server that is getting hit by requests from a bash script. One of the requests is a special request that you want to service in a different way, for debugging purposes.
+
 **DO NOT MODIFY CODE**
 
 First use the breakpoint hit times to find the correct call, then use the breakpoint edit to find the right call.
